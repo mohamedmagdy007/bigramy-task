@@ -1,0 +1,49 @@
+@import "./styles/variables";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(10 10 10);
+  color: #fff;
+}
+
+.loading {
+  border: 5px solid $mainColor;
+  border-right-color: transparent;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.cart_btn {
+  border: 2px solid $mainColor;
+  padding: 6px 8px;
+  color: $mainColor;
+}
+
+.video {
+  video {
+    width: 100%;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    rotate: 0;
+  }
+  100% {
+    rotate: 360deg;
+  }
+}

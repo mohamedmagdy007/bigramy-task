@@ -1,0 +1,53 @@
+.footer {
+  .form_container {
+    display: flex;
+    width: 100%;
+    max-width: 540px;
+    .input {
+      border: 1px solid $borderColor;
+      padding: 8px;
+      flex-grow: 1;
+      input {
+        background-color: transparent;
+        outline: none;
+        border: none;
+        width: 100%;
+        min-width: 0;
+      }
+    }
+
+    button {
+      background-color: $mainColor;
+      border: none;
+      font-weight: bold;
+      font-size: 14px;
+      padding: 6px 8px;
+    }
+  }
+
+  .text_des {
+    color: $grayColor;
+  }
+
+  .social_list {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+    li {
+      background-color: $mainColor;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      display: grid;
+      place-content: center;
+      color: rgba(0, 0, 0, 0.87);
+    }
+  }
+
+  .links_list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+  }
+}

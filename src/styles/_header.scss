@@ -1,0 +1,12 @@
+.nav-item {
+  font-size: 20px;
+  text-transform: capitalize;
+  &:hover {
+    a {
+      color: $mainColor;
+    }
+  }
+  a.active {
+    color: $mainColor;
+  }
+}
